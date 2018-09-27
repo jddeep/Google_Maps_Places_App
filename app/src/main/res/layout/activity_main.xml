@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/googlemaps"
+    tools:context=".MainActivity">
+<TextView
+    android:foregroundGravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ACCOM NOW"
+    android:layout_centerInParent="true"
+    android:padding="50dp"
+    android:textSize="40sp"
+    android:textColor="#000000"
+    android:fontFamily="sans-serif-medium"
+    android:layout_above="@id/map_button"/>
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_orange_light"
+        android:elevation="10dp"
+           android:textColor="#fff"
+        android:drawSelectorOnTop="true"
+        android:text="open map" />
+
+</RelativeLayout>
